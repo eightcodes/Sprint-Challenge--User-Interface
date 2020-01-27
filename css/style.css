@@ -1,7 +1,4 @@
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+
 body {
 	line-height: 1;
 }
@@ -262,7 +259,7 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-
+/* index.html ends here and about.html starts here*/
 ul {
     display: flex;
     justift-content:space-evenly;
@@ -270,7 +267,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    display: inline-flex;
   }
   
   li {
@@ -292,25 +288,21 @@ ul {
   }
   
   
-  .container {
-      width: 800px;
-      margin: 0 auto;
-  }
+
   
-  .top-content {
+  .top-sect {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-evenly;
       margin-bottom: 20px;
-      
-  }
-  
-  .top-content .text-container {
-      width: 48%;
+        width: 48%;
       padding: 0 1%;
       padding-bottom: 20px;
-      
+     border-bottom: 1px dashed black; 
   }
+  
+
+    
   p {
       line-height: 1.4;
   }
@@ -332,7 +324,7 @@ ul {
 
 .top-sect {
     display:flex;
-    border-bottom: 1px dashed black;
+    
     
   }
   
@@ -342,45 +334,3 @@ ul {
     border-bottom: 1px dashed black;
   } 
 
-  header {
-    display: flex;
-    flex-flow: column;
-}
-
-.header-bottom {
-    display: flex;
-}
-
-.header-left {
-    width: 49%;
-    text-align: center;
-    align-self: center;
-}
-
-.header-left h1 {
-    font-size: 3.5rem;
-}
-
-
-
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
