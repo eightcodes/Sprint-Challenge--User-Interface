@@ -1,6 +1,7 @@
 
 body {
-	line-height: 1;
+    line-height: 1;
+    padding: 2%;
 }
 /*
 ol, ul {
@@ -23,12 +24,13 @@ table {
 * {
     box-sizing: border-box;
 }
-
+/*
 html, body {
+    display: inline;
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
+*/
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -194,14 +196,14 @@ img {
 }
 
 .nav-tag {
-  display:flex;
-  justify-content: space-evenly;
+  display:inline-flex;
+  text-align-last: center;
+  
 }
 
 
 
 .nav-tag a {
-  display: block;
   color: black;
   text-align: center;
   padding: 14px 16px;
@@ -239,12 +241,13 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    text-decoration: none;
 }
 
 footer nav a {
@@ -254,13 +257,13 @@ footer nav a {
 /* index.html ends here and about.html starts here*/
 
   
-  .top-sect {
+.top-sect {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-evenly;
       margin-bottom: 20px;
       padding: 0 1%;
-      padding-bottom: 20px;
+      padding-bottom: 10px;
      border-bottom: 1px dashed black; 
   }
   
@@ -268,22 +271,20 @@ footer nav a {
       line-height: 1.4;
   }
   
-  .collab-sect {
-    display: block;
+  .places {
+    display: flex;
       flex-wrap: wrap;
       justify-content: space-evenly;
-      margin-bottom: 10%;
+      margin-bottom: 20%;
       border-bottom:1px dashed black;
-     position: absolute;
+      padding: 0 1%;
+      padding-bottom: 20px;
   }
   /* about.css styles*/
-.strategy {
-    display: flex;
-    width: 40%;
-} 
 
-.about {
-    display:flex;
-    border-bottom: 1px dashed black;
-    width: 40%;
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
 }
