@@ -1,7 +1,8 @@
 
 body {
     line-height: 1;
-    padding: 2%;
+    max-width: 900px;
+    margin: 0 auto;
 }
 /*
 ol, ul {
@@ -42,13 +43,13 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 950px;
     margin: 0 auto;
 }
 
 .top-content {
     display: flex;
-    flex-wrap: wrap;
+    display: flex-wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -259,12 +260,10 @@ footer nav a {
   
 .top-sect {
       display: flex;
-      flex-wrap: wrap;
       justify-content: space-evenly;
       margin-bottom: 20px;
       padding: 0 1%;
-      padding-bottom: 10px;
-     border-bottom: 1px dashed black; 
+      padding-bottom: 30px; 
   }
   
   p {
@@ -273,10 +272,8 @@ footer nav a {
   
   .places {
     display: flex;
-      flex-wrap: wrap;
       justify-content: space-evenly;
       margin-bottom: 20%;
-      border-bottom:1px dashed black;
       padding: 0 1%;
       padding-bottom: 20px;
   }
@@ -284,7 +281,25 @@ footer nav a {
 
   .about {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.strategy {
+border-bottom: 1px dashed black;
+width: min-content;
+}
+.places-sect {
+    border-bottom: 1px dashed black; 
+    width: min-content;
+}
+ 
+.work {
+border-bottom: 1px dashed black;
+width: min-content;
+}
+
+.collab {
+    border-bottom: 1px dashed black;
+    width: min-content;
 }
